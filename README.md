@@ -129,7 +129,7 @@ Scripts included in this repository:
 
 * GPO list overview
   `![GPO List](./screenshots/gpo-list.png)`
-* WSUS policy example
+* Policy example
   `![WSUS Policy](./screenshots/gpo-wsus.png)`
 * Local admin assignment script GPO
   `![Local Admin GPO](./screenshots/gpo-local-admin.png)`
