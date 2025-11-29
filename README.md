@@ -150,13 +150,6 @@ Scripts included in this repository:
 * Reverse lookup zone
   ![DNS Reverse](./screenshots/dns-reverse-lookup.png)`
 
-### **WSUS**
-
-* Sync configuration
-  ![WSUS Sync](./screenshots/wsus-sync.png)`
-* Update approvals
-  ![WSUS Approvals](./screenshots/wsus-approval.png)`
-
 ### **WDS**
 
 * PXE boot screen
