@@ -10,7 +10,6 @@ This project demonstrates advanced skills in Active Directory, Group Policy, DHC
 This homelab replicates a small enterprise network with:
 
 * **1 Primary Domain Controller (DC01)**
-* **1 Additional Domain Controller (DC02)**
 * **DHCP Server**
 * **DNS Server**
 * **WSUS Server**
@@ -116,6 +115,54 @@ Scripts included in this repository:
 
 ---
 
+### 🛠️ **Remote Assistance Configuration**
+
+Enabled and configured **Remote Assistance** across the domain for secure remote support:
+
+* Enabled Remote Assistance via **Group Policy**
+  `Computer Configuration → Policies → Administrative Templates → System → Remote Assistance`
+* Configured **Offer Remote Assistance**, allowing IT Admins to initiate sessions
+* Allowed required firewall ports through GPO (TCP 135, 139, 445 + dynamic RPC range)
+* Tested using the command:
+  `msra /offerRA <PCName>`
+* Verified successful inbound connections and support session behavior
+
+**Screenshots**
+
+* GPO settings for Remote Assistance
+  ![GPO Remote Assistance](./screenshots/gpo-remote-assistance.png)
+* Firewall rules applied via GPO
+  ![GPO Firewall RA](./screenshots/gpo-firewall-remote-assistance.png)
+* Successful MSRA session test
+  ![MSRA Session](./screenshots/remote-assistance-msra.png)
+
+---
+
+### 📁 **FSRM (File Server Resource Manager)**
+
+Installed and configured **File Server Resource Manager** to implement storage governance and protect the file server:
+
+* Enabled FSRM role via Server Manager
+* Created **Quota Templates** and applied folder quotas (Soft/Hard limits)
+* Configured **File Screens** to block unwanted file types (e.g., .mp3, .exe, .iso on shared folders)
+* Enabled real-time email notifications for quota/file-screen triggers
+* Integrated FSRM with shared folders created earlier
+
+**Screenshots**
+
+* FSRM console home
+  ![FSRM Home](./screenshots/fsrm-home.png)
+* Quota templates
+  ![Quota Templates](./screenshots/fsrm-quota-templates.png)
+* Applied folder quota
+  ![Folder Quota](./screenshots/fsrm-folder-quota.png)
+* File Screen example
+  ![File Screen](./screenshots/fsrm-file-screen.png)
+
+
+---
+  
+
 ### **Active Directory**
 
 * OU structure
@@ -170,6 +217,7 @@ Scripts included in this repository:
   ![NTFS Permissions](./screenshots/file-ntfs.png)`
 * Shared folder configuration
   ![Shared Folders](./screenshots/file-shares.png)`
+
 
 ---
 
