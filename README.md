@@ -119,64 +119,64 @@ Scripts included in this repository:
 ### **Active Directory**
 
 * OU structure
-  `![OU Structure](./screenshots/ad-ou-structure.png)`
+  ![OU Structure](./screenshots/ad-ou-structure.png)`
 * Bulk-created users
-  `![Bulk Users](./screenshots/ad-bulk-users.png)`
+  ![Bulk Users](./screenshots/ad-bulk-users.png)`
 * Group memberships
-  `![Group Memberships](./screenshots/ad-group-membership.png)`
+  ![Group Memberships](./screenshots/ad-group-membership.png)`
 
 ### **Group Policy**
 
 * GPO list overview
-  `![GPO List](./screenshots/gpo-list.png)`
+  ![GPO List](./screenshots/gpo-list.png)`
 * Policy example
-  `![WSUS Policy](./screenshots/gpo-wsus.png)`
+  ![WSUS Policy](./screenshots/gpo-wsus.png)`
 * Local admin assignment script GPO
-  `![Local Admin GPO](./screenshots/gpo-local-admin.png)`
+  ![Local Admin GPO](./screenshots/gpo-local-admin.png)`
 
 ### **DHCP**
 
 * Scope setup
-  `![DHCP Scope](./screenshots/dhcp-scope.png)`
+  ![DHCP Scope](./screenshots/dhcp-scope.png)`
 * Lease list
-  `![DHCP Leases](./screenshots/dhcp-leases.png)`
+  ![DHCP Leases](./screenshots/dhcp-leases.png)`
 
 ### **DNS**
 
 * Forward lookup zones
-  `![DNS Forward](./screenshots/dns-forward-lookup.png)`
+  ![DNS Forward](./screenshots/dns-forward-lookup.png)`
 * SRV records
-  `![DNS SRV](./screenshots/dns-srv-records.png)`
+  ![DNS SRV](./screenshots/dns-srv-records.png)`
 * Reverse lookup zone
-  `![DNS Reverse](./screenshots/dns-reverse-lookup.png)`
+  ![DNS Reverse](./screenshots/dns-reverse-lookup.png)`
 
 ### **WSUS**
 
 * Sync configuration
-  `![WSUS Sync](./screenshots/wsus-sync.png)`
+  ![WSUS Sync](./screenshots/wsus-sync.png)`
 * Update approvals
-  `![WSUS Approvals](./screenshots/wsus-approval.png)`
+  ![WSUS Approvals](./screenshots/wsus-approval.png)`
 
 ### **WDS**
 
 * PXE boot screen
-  `![PXE Boot](./screenshots/wds-pxe.png)`
+  ![PXE Boot](./screenshots/wds-pxe.png)`
 * Boot/install image list
-  `![WDS Images](./screenshots/wds-images.png)`
+  ![WDS Images](./screenshots/wds-images.png)`
 
 ### **Hyper-V**
 
 * Virtual switch manager
-  `![Hyper-V Switch](./screenshots/hyperv-switch.png)`
+  ![Hyper-V Switch](./screenshots/hyperv-switch.png)`
 * VM configuration screen
-  `![VM Config](./screenshots/hyperv-vm-config.png)`
+  ![VM Config](./screenshots/hyperv-vm-config.png)`
 
 ### **File Server**
 
 * NTFS permissions example
-  `![NTFS Permissions](./screenshots/file-ntfs.png)`
+  ![NTFS Permissions](./screenshots/file-ntfs.png)`
 * Shared folder configuration
-  `![Shared Folders](./screenshots/file-shares.png)`
+  ![Shared Folders](./screenshots/file-shares.png)`
 
 ---
 
